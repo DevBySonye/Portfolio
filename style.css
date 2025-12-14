@@ -1,0 +1,235 @@
+*{
+    
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#hero{
+    background: 
+  linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,1), rgba(255,255,255,0)),
+  url("/assets/images/bc\ 3.jpeg");
+background-size: cover;
+background-position: center;
+    color: white;
+    height: vh;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    
+}
+.intro-button{
+    margin-bottom: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(100, 151, 151);
+    background-color: rgba(225, 225, 225, 0.3);
+}
+.btn-1{
+     display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-1 i{
+    color: inherit;
+}
+.btn-1:hover{
+    color: white !important;
+    text-decoration: none;
+}
+.btn-1:hover i{
+    color: white;
+}
+.btn-1 i:hover{
+    color: white !important;
+    text-decoration: none;
+}
+.btn-2:hover {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.8),
+                0 0 20px rgba(0, 255, 255, 0.6),
+                0 0 30px rgba(0, 255, 255, 0.4);
+    border-color: cyan !important;
+}
+h1{
+    
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    gap: 10px;
+    justify-content: center;
+    height: 30px;
+
+    
+}
+
+i{
+    background-color: rgba(225, 225, 225, 0.3);
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    
+}
+a i{
+    color: white;
+    text-decoration: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+i:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    transform: scale(1.2);
+
+}
+
+#custom-cards>h2{
+    font-size: 2.5rem;
+}
+.card-container{   
+    align-items: stretch !important;
+
+}
+.card-container>.col{
+    display: flex;
+
+}
+.card{
+    display: flex ;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid rgb(15, 66, 66);
+    background-color: black;
+    color: white;
+    padding: 2px;
+   
+}
+.card-body{
+    flex-grow: 1;
+}
+.card:hover{
+     box-shadow: 0 0 10px rgba(0, 255, 255, 0.8),
+                0 0 20px rgba(0, 255, 255, 0.6),
+                0 0 30px rgba(0, 255, 255, 0.4);
+
+    border-color: cyan !important;
+    
+}
+
+.card-text{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.btn-group{
+    width: 100%;
+}
+.btn-group a{
+    display: block;
+    width: 100%;
+}
+.btn-group a button{
+    width: 100%  ;
+    text-align: center;
+
+}
+.btn-group a button:hover{
+    background-color: white;
+    color: black;
+}
+.divider {
+  width: 60%;
+  text-align: center;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, cyan, #0f4242, transparent);
+  margin: 1.5rem auto;
+}
+#skills{
+    padding-bottom: 30px;
+}
+#skills h3{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+.expertise{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background: linear-gradient(135deg, cyan, #141e57);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.badge-top, .badge-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.badge{
+    background-color: white;
+}
+h4 {
+  margin: 1rem 0;
+}
+#aboutme{
+    background-color: rgba(169, 168, 168, 0.1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.aboutme-heading{
+    text-align: center;
+}
+.aboutme-heading h2{
+    font-size: 2.5rem;
+    
+}
+.aboutme-heading p{
+    font-style: italic;
+}
+.promises-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 13px;
+}
+.promises{
+    background-color: rgba(175, 172, 172, 0.194);
+    padding: 20px;
+    border-radius: 10px;
+}
+.promises i{
+    color: rgb(3, 194, 194);
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+#footer{
+    padding: 20px;
+}
+#footer h3{
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    background: linear-gradient(135deg, white, white, #03c6d3, #03c6d3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
